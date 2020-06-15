@@ -1,0 +1,382 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2019, 11:58:48 PM
+    Author     : Khedekar
+*/
+*{
+    margin: 0;
+}
+/******************************Login page************************************/
+.Logincenter{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    
+}
+.mobilenumberbutton{
+    width: 400px;
+    border-radius: 24px;
+    height: 40px;
+    outline: none!important;
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.mobilenumberbutton:hover{
+    background-color: green;
+}
+.loginsignup{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    outline: none!important;
+    height: 35px;
+    background: none;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #888;
+    width: 100px;
+}
+.loginsignup:hover{
+    background-color: #888;
+    color: white;
+}
+.signupwithemail{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    outline: none!important;
+    height: 28px;
+    background: none;
+    border-radius: 30px;
+    font-size: 10px;
+    color: #888;
+}
+.signupwithemail:hover{
+    background-color: #888;
+    color: white;
+}
+.signupme{
+    outline: none!important;
+    cursor: pointer;
+    border: none;
+    background-color: forestgreen;
+    border-radius: 24px;
+    height: 40px;
+    color: white;
+    width: 150px;
+}
+.signupme:hover{
+    background-color: green;
+}
+/**************************Mobile Login Page********************************/
+.mbloginheader{
+    width: 100%;
+    height: 50px;
+    background-color: forestgreen;
+    text-align: center;
+    vertical-align: middle;
+}
+.mblogincenter{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    text-align: center;
+}
+.txtnumber{
+    width: 200px;
+    height: 10%;
+    border: none;
+    outline: none!important;
+    border: 2px solid aqua;
+    text-align: center;
+}
+.mbloginsendbtn{
+    width: 200px;
+    height: 12%;
+    cursor: pointer;
+    border: 2px solid aqua;
+    background-color: azure;
+    outline: none!important;
+    text-align: center;
+}
+.mbloginsendbtn:hover{
+    background-color: aqua;
+}
+
+
+/**************************Navigation bar********************************/
+.navbar{
+    background-color: #ecf0f1;
+    
+}
+.navbar a{
+    color:black;
+}
+.Login:hover{
+    text-decoration: underline;
+}
+.logout{
+    outline: none!important;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    background-color: #e84118;
+}
+.search-box{
+    position: absolute;
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding:0;
+    width: auto;
+}
+.search-txt{
+    border: none;
+    border-radius: 40px;
+    background-color: #2f3640;
+    color:white;
+    outline: none;
+    float: left;
+    font-size: 16px;
+    
+    text-align: left;
+    line-height: 38px;
+    padding: 0 6px;
+    width: 240px;
+}
+.search-btn{
+    color: #ffffff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border: none;
+    outline: none!important;
+    
+}
+.signup-login:hover{
+    text-decoration: underline;
+}
+
+/**************************** center Menu *******************************/
+.leftsidediv{
+    -webkit-box-shadow: 2px 0 4px -2px #888;
+    box-shadow: 2px 0 4px -2px #888;
+}
+.carousel{
+    width: 100%;
+    height: 45%;
+}
+.carousel-inner{
+    height: 100%;
+}
+.contain{
+    box-sizing: border-box;
+    height: 100%;
+}
+.columnleft{
+  float: left;
+  width: 20.83%;
+  height: calc(100vh - 70px);
+}
+.columncenter{
+    padding: 10px;
+  float: left;
+  width: 58.33%;
+  height: calc(100vh - 70px);
+}
+.columnright{
+  float: left;
+  width: 20.80%;
+  height: calc(100vh - 70px);
+  border-left: 1px solid black;
+}
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btnviewall{
+    float: right;
+    outline: none!important;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #e84118;
+}
+.btnviewall:hover{
+    background-color: azure;
+}
+.cardd{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 23%;
+    border-radius: 5px;
+    margin-right: 1.5%;
+    margin-top: 1.5%;
+    cursor: pointer;
+}
+.cardd:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.containerr{
+    padding: 2px 18px;
+    word-wrap: break-word;
+}
+.btnsong{
+    outline: none!important;
+    width: 100%;
+    height: 27vh;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.artistspage{
+    outline: none!important;
+    width: 100%;
+    height: 27vh;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.playlistbtn{
+    width: 100%;
+    height: 50px;
+    outline: none!important;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.playlistbtn:hover{
+    background-color: #ccc;
+}
+/****************Music Player******************/
+.musicplayer{
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #ecf0f1;
+}
+.buttonplay{
+    background: none;
+    outline: none!important;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.buttonforward{
+    background: none;
+    outline: none!important;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.buttonbackward{
+    background: none;
+    outline: none!important;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.volumeupdown{
+    background: none;
+    outline: none!important;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+/**************************** OpneSong page *******************************/
+.songdetails{
+    width:100%;
+    height: 40%;
+}
+.songposter{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 85%;
+    margin: 20px;
+}
+.posterdetails{
+    display: inline-block;
+    float: left;
+    width: 60%;
+    height: 75%;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.btndownload{
+    border: none;
+    outline: none!important;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btnplayall{
+    outline: none!important;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px; 
+}
+.btnplayall:hover{
+    background-color: royalblue;
+}
+.albumsonglist{
+    width: 100%;
+}
+.albumsonglist .playbtn{
+    background: none;
+    outline: none!important;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.albumsonglist .songlink{
+}
+
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}

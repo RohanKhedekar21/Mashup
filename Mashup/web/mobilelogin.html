@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SMS Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/css.css" type="text/css">
+
+    </head>
+    <body style="width: 100%;height: 100%;">
+        <div style="width: 100%;height: 100%;">
+            <div class="mbloginheader">
+                <p style="color: whitesmoke;font-size: 25px;font-weight: bold;padding-top: 10px;">Login into Mashup</p>
+            </div>
+            <div class="mblogincenter">
+                <form action='Sendcode' method="post">
+                    <p style="font-size: 20px;">Enter your mobile number</p>
+                    <br>
+                    <input type="text" name="phono" class="txtnumber">
+                    <br><br><br>
+                    <button class="mbloginsendbtn" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

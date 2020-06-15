@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mashup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/AdminPageStyling.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body style="height: 100%;width: 100%;">
+        <!--Navigation bar-->
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/MashUp_Logo.png" alt="" width="100%" height="100%"/>
+            </div>
+        </div>
+        <div class="Logincenter">
+            <div style="width: 100%;height: 30%;text-align: center;">
+                <Span Style="font-weight: bold;font-size: 60px;padding-top: 50px;">Admin Login</span>
+            </div>
+            <div style="width: 100%;">
+                <form action="adminlogin" method="POST">
+                    <table style="margin: 0 auto;width: 80%;font-size: 20px;">
+                        <tr style="height: 50px;">
+                            <td>Enter Username:</td>
+                            <td><input type="text" name="username" placeholder="Enter Username" class="textfield"/></td>
+                        </tr>
+                        <tr style="height: 50px;">
+                            <td>Enter Password:</td>
+                            <td><input type="password" name="password" placeholder="Enter Password" class="textfield"></td>
+                        </tr>
+                        <tr style="height: 50px;">
+                            <td colspan="2" style="text-align: right"><span style="cursor: pointer">Forget password</span></td>
+                        </tr>
+                        <tr style="height: 50px;">
+                            <td colspan="2" style="text-align: center"><button class="btnlogin" type="submit">Login</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
